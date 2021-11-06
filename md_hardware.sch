@@ -1659,10 +1659,10 @@ Text GLabel 5800 5900 0    50   Input ~ 0
 PHASE_P
 Text GLabel 5800 6300 0    50   Input ~ 0
 PWM_P
-Text GLabel 1700 2050 0    50   Input ~ 0
+Text GLabel 2700 1950 2    50   Input ~ 0
 B
-NoConn ~ 2700 1950
-NoConn ~ 2700 1850
-Text GLabel 2700 2550 2    50   Input ~ 0
+NoConn ~ 1700 2050
+NoConn ~ 2700 2550
+Text GLabel 2700 1850 2    50   Input ~ 0
 A
 $EndSCHEMATC
