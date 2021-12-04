@@ -1622,7 +1622,7 @@ F 3 "~" H 1100 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_lib:A3921 U1
+L d_robo_lib:A3921 U1
 U 1 1 603FB4AB
 P 8700 4450
 F 0 "U1" H 8700 5275 50  0000 C CNN
