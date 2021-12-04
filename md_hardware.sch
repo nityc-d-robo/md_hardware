@@ -1590,7 +1590,7 @@ F 3 "~" H 1400 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_lib:BD33KA5FP-E2 U5
+L d_robo_lib:BD33KA5FP-E2 U5
 U 1 1 6036F5AA
 P 1850 6100
 F 0 "U5" H 1850 6425 50  0000 C CNN
