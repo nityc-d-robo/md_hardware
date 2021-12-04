@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MD_1_4-rescue:Csmall-DCJACK C11
+L Device:C_Small C11
 U 1 1 5F82ADEE
 P 1100 1250
 F 0 "C11" H 1150 1300 30  0000 L CNN
@@ -89,7 +89,7 @@ F 3 "" H 1950 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MD_1_4-rescue:a3921-Driver_Motor-MD_5_9-rescue U1
+L d_robo_lib:A3921 U1
 U 1 1 5F83A274
 P 8700 4450
 F 0 "U1" H 8700 5275 50  0000 C CNN
@@ -410,7 +410,7 @@ F 3 "~" H 9400 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MD_1_4-rescue:Csmall-DCJACK C4
+L Device:C_Small C4
 U 1 1 5F8F2F5B
 P 8150 5150
 F 0 "C4" H 8050 5200 30  0000 L CNN
@@ -427,7 +427,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 5250 8250 5150
 $Comp
-L MD_1_4-rescue:Csmall-DCJACK C6
+L Device:C_Small C6
 U 1 1 5F8F8010
 P 9250 5200
 F 0 "C6" H 9328 5230 30  0000 L CNN
@@ -438,7 +438,7 @@ F 3 "" H 9250 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MD_1_4-rescue:Csmall-DCJACK C5
+L Device:C_Small C5
 U 1 1 5F956385
 P 10200 2000
 F 0 "C5" H 10250 2050 30  0000 L CNN
@@ -449,7 +449,7 @@ F 3 "" H 10200 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MD_1_4-rescue:Csmall-DCJACK C7
+L Device:C_Small C7
 U 1 1 5F956A8F
 P 10000 2000
 F 0 "C7" H 10050 2050 30  0000 L CNN
@@ -493,7 +493,7 @@ F 3 "~" H 6600 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MD_1_4-rescue:Csmall-DCJACK C2
+L Device:C_Small C2
 U 1 1 5F9667A6
 P 9350 2000
 F 0 "C2" V 9300 1900 30  0000 C CNN
@@ -504,7 +504,7 @@ F 3 "" H 9350 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MD_1_4-rescue:Csmall-DCJACK C3
+L Device:C_Small C3
 U 1 1 5F967C9A
 P 6650 2000
 F 0 "C3" V 6600 1900 30  0000 C CNN
@@ -687,7 +687,7 @@ F 3 "~" H 8150 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MD_1_4-rescue:Csmall-DCJACK C10
+L Device:C_Small C10
 U 1 1 5F994059
 P 7250 5000
 F 0 "C10" H 7328 5030 30  0000 L CNN
@@ -999,7 +999,7 @@ NRST
 Wire Wire Line
 	1600 750  1950 750 
 $Comp
-L MD_1_4-rescue:Csmall-DCJACK C12
+L Device:C_Small C12
 U 1 1 5F97BA0A
 P 750 1800
 F 0 "C12" H 828 1830 30  0000 L CNN
@@ -1211,57 +1211,49 @@ F 3 "~" H 1550 2550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L MD_1_4-rescue:MC7805BDTRKG-dk_PMIC-Voltage-Regulators-Linear U5
+L d_robo_lib:BD33KA5FP-E2 U5
 U 1 1 5FA2FD8F
-P 1850 6050
-F 0 "U5" H 1850 6337 60  0000 C CNN
-F 1 "BD33KA5FP-E2" H 1850 6231 60  0000 C CNN
-F 2 "digikey-footprints:TO-252-3" H 2050 6250 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MC7800-D.PDF" H 2050 6350 60  0001 L CNN
-F 4 "MC7805BDTRKGOSCT-ND" H 2050 6450 60  0001 L CNN "Digi-Key_PN"
-F 5 "MC7805BDTRKG" H 2050 6550 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 2050 6650 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 2050 6750 60  0001 L CNN "Family"
-F 8 "http://www.onsemi.com/pub/Collateral/MC7800-D.PDF" H 2050 6850 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSCT-ND/1139742" H 2050 6950 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LINEAR 5V 1A DPAK" H 2050 7050 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 2050 7150 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2050 7250 60  0001 L CNN "Status"
-	1    1850 6050
+P 1850 6100
+F 0 "U5" H 1850 6400 60  0000 C CNN
+F 1 "BD33KA5FP-E2" H 1850 6300 60  0000 C CNN
+F 2 "digikey-footprints:TO-252-3" H 2050 6300 60  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC7800-D.PDF" H 2050 6400 60  0001 L CNN
+F 4 "MC7805BDTRKGOSCT-ND" H 2050 6500 60  0001 L CNN "Digi-Key_PN"
+F 5 "MC7805BDTRKG" H 2050 6600 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 2050 6700 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 2050 6800 60  0001 L CNN "Family"
+F 8 "http://www.onsemi.com/pub/Collateral/MC7800-D.PDF" H 2050 6900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSCT-ND/1139742" H 2050 7000 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 5V 1A DPAK" H 2050 7100 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 2050 7200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2050 7300 60  0001 L CNN "Status"
+	1    1850 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L MD_1_4-rescue:Csmall-DCJACK C8
+L Device:C_Small C8
 U 1 1 5FA303BE
-P 1400 6150
-F 0 "C8" H 1478 6180 30  0000 L CNN
-F 1 "1µ" H 1478 6120 30  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 6150 50  0001 C CNN
-F 3 "" H 1400 6150 50  0001 C CNN
-	1    1400 6150
+P 1400 6100
+F 0 "C8" H 1478 6130 30  0000 L CNN
+F 1 "1µ" H 1478 6070 30  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 6100 50  0001 C CNN
+F 3 "" H 1400 6100 50  0001 C CNN
+	1    1400 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L MD_1_4-rescue:Csmall-DCJACK C9
+L Device:C_Small C9
 U 1 1 5FA30F38
-P 2250 6150
-F 0 "C9" H 2328 6180 30  0000 L CNN
-F 1 "1µ" H 2328 6120 30  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2250 6150 50  0001 C CNN
-F 3 "" H 2250 6150 50  0001 C CNN
-	1    2250 6150
+P 2250 6100
+F 0 "C9" H 2328 6130 30  0000 L CNN
+F 1 "1µ" H 2328 6070 30  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2250 6100 50  0001 C CNN
+F 3 "" H 2250 6100 50  0001 C CNN
+	1    2250 6100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 6050 1550 6050
-Wire Wire Line
-	2150 6050 2250 6050
-Wire Wire Line
-	1400 6250 1400 6350
 Wire Wire Line
 	1400 6350 1850 6350
-Wire Wire Line
-	2250 6350 2250 6250
 Connection ~ 1850 6350
 Wire Wire Line
 	1850 6350 2250 6350
@@ -1279,27 +1271,25 @@ $EndComp
 $Comp
 L power:+5VD #PWR026
 U 1 1 5FA4D09E
-P 1400 6050
-F 0 "#PWR026" H 1400 5900 50  0001 C CNN
-F 1 "+5VD" H 1250 6150 50  0000 C CNN
-F 2 "" H 1400 6050 50  0001 C CNN
-F 3 "" H 1400 6050 50  0001 C CNN
-	1    1400 6050
+P 1400 6000
+F 0 "#PWR026" H 1400 5850 50  0001 C CNN
+F 1 "+5VD" H 1250 6100 50  0000 C CNN
+F 2 "" H 1400 6000 50  0001 C CNN
+F 3 "" H 1400 6000 50  0001 C CNN
+	1    1400 6000
 	1    0    0    -1  
 $EndComp
-Connection ~ 1400 6050
 $Comp
 L power:+3.3V #PWR028
 U 1 1 5FA4D8EF
-P 2250 6050
-F 0 "#PWR028" H 2250 5900 50  0001 C CNN
-F 1 "+3.3V" H 2400 6150 50  0000 C CNN
-F 2 "" H 2250 6050 50  0001 C CNN
-F 3 "" H 2250 6050 50  0001 C CNN
-	1    2250 6050
+P 2250 6000
+F 0 "#PWR028" H 2250 5850 50  0001 C CNN
+F 1 "+3.3V" H 2400 6100 50  0000 C CNN
+F 2 "" H 2250 6000 50  0001 C CNN
+F 3 "" H 2250 6000 50  0001 C CNN
+	1    2250 6000
 	1    0    0    -1  
 $EndComp
-Connection ~ 2250 6050
 NoConn ~ 3550 4750
 NoConn ~ 3550 4850
 NoConn ~ 3550 4950
@@ -1647,4 +1637,14 @@ F 3 "" H 3300 3500 50  0001 C CNN
 	1    3300 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1400 6200 1400 6350
+Wire Wire Line
+	1400 6000 1500 6000
+Connection ~ 1400 6000
+Wire Wire Line
+	2200 6000 2250 6000
+Connection ~ 2250 6000
+Wire Wire Line
+	2250 6200 2250 6350
 $EndSCHEMATC
