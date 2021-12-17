@@ -201,7 +201,7 @@ P 6900 1700
 F 0 "Q2" H 6750 1900 50  0000 L CNN
 F 1 "RD3L08BGNTL" H 6350 1800 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 7100 1800 50  0001 C CNN
-F 3 "~" H 6900 1700 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/jp/products/databook/datasheet/discrete/transistor/mosfet/rd3l08bgntl-j.pdf" H 6900 1700 50  0001 C CNN
 	1    6900 1700
 	1    0    0    -1  
 $EndComp
@@ -212,7 +212,7 @@ P 6900 2300
 F 0 "Q4" H 6750 2500 50  0000 L CNN
 F 1 "RD3L08BGNTL" H 6350 2400 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 7100 2400 50  0001 C CNN
-F 3 "~" H 6900 2300 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/jp/products/databook/datasheet/discrete/transistor/mosfet/rd3l08bgntl-j.pdf" H 6900 2300 50  0001 C CNN
 	1    6900 2300
 	1    0    0    -1  
 $EndComp
@@ -223,7 +223,7 @@ P 9100 1700
 F 0 "Q1" H 8950 1900 50  0000 L CNN
 F 1 "RD3L08BGNTL" H 8550 1800 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 9300 1800 50  0001 C CNN
-F 3 "~" H 9100 1700 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/jp/products/databook/datasheet/discrete/transistor/mosfet/rd3l08bgntl-j.pdf" H 9100 1700 50  0001 C CNN
 	1    9100 1700
 	-1   0    0    -1  
 $EndComp
@@ -234,7 +234,7 @@ P 9100 2300
 F 0 "Q3" H 8950 2500 50  0000 L CNN
 F 1 "RD3L08BGNTL" H 8550 2400 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 9300 2400 50  0001 C CNN
-F 3 "~" H 9100 2300 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/jp/products/databook/datasheet/discrete/transistor/mosfet/rd3l08bgntl-j.pdf" H 9100 2300 50  0001 C CNN
 	1    9100 2300
 	-1   0    0    -1  
 $EndComp
