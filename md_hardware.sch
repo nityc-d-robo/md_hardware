@@ -18,7 +18,7 @@ L Switch:SW_Push SW1
 U 1 1 5F82FA1C
 P 1300 1350
 F 0 "SW1" V 1250 1450 50  0000 L CNN
-F 1 "reset" V 1350 1450 50  0000 L CNN
+F 1 "1sw-017" V 1350 1450 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 1300 1550 50  0001 C CNN
 F 3 "~" H 1300 1550 50  0001 C CNN
 	1    1300 1350
@@ -28,7 +28,7 @@ $Comp
 L Device:R R11
 U 1 1 5F83206C
 P 1600 1000
-F 0 "R11" H 1750 1050 50  0000 R CNN
+F 0 "R11" H 1800 1050 50  0000 R CNN
 F 1 "10k" H 1800 950 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1530 1000 50  0001 C CNN
 F 3 "~" H 1600 1000 50  0001 C CNN
@@ -355,7 +355,7 @@ P 4250 2150
 F 0 "J3" H 4222 2174 50  0000 R CNN
 F 1 "AMT102-v" H 4222 2083 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal" H 4250 2150 50  0001 C CNN
-F 3 "~" H 4250 2150 50  0001 C CNN
+F 3 "https://akizukidenshi.com/download/ds/jst/xh.pdf" H 4250 2150 50  0001 C CNN
 	1    4250 2150
 	-1   0    0    -1  
 $EndComp
@@ -1039,7 +1039,7 @@ L power:GND #PWR025
 U 1 1 5FA4958E
 P 1850 1350
 F 0 "#PWR025" H 1850 1100 50  0001 C CNN
-F 1 "GND" H 2000 1300 50  0000 C CNN
+F 1 "GND" H 1850 1200 50  0000 C CNN
 F 2 "" H 1850 1350 50  0001 C CNN
 F 3 "" H 1850 1350 50  0001 C CNN
 	1    1850 1350
@@ -1170,7 +1170,7 @@ P 5700 2900
 F 0 "SW2" H 5700 3367 50  0000 C CNN
 F 1 "KHS42E" H 5700 3276 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_Copal_CHS-04B_W7.62mm_P1.27mm" H 5700 2900 50  0001 C CNN
-F 3 "~" H 5700 2900 50  0001 C CNN
+F 3 "https://akizukidenshi.com/download/ds/otax/KHS.pdf" H 5700 2900 50  0001 C CNN
 	1    5700 2900
 	1    0    0    -1  
 $EndComp
@@ -1311,9 +1311,9 @@ L Connector:Conn_01x02_Male J5
 U 1 1 5FB30BE8
 P 5700 4300
 F 0 "J5" H 5600 4300 50  0000 L CNN
-F 1 "XH" H 5550 4200 50  0000 L CNN
+F 1 "S2B-XH-A" H 5250 4200 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 5700 4300 50  0001 C CNN
-F 3 "~" H 5700 4300 50  0001 C CNN
+F 3 "https://akizukidenshi.com/download/ds/jst/xh.pdf" H 5700 4300 50  0001 C CNN
 	1    5700 4300
 	-1   0    0    -1  
 $EndComp
@@ -1322,9 +1322,9 @@ L Connector:Conn_01x02_Male J6
 U 1 1 5FB31458
 P 5700 4550
 F 0 "J6" H 5672 4524 50  0000 R CNN
-F 1 "XH" H 5672 4433 50  0000 R CNN
+F 1 "S2B-XH-A" H 5672 4433 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 5700 4550 50  0001 C CNN
-F 3 "~" H 5700 4550 50  0001 C CNN
+F 3 "https://akizukidenshi.com/download/ds/jst/xh.pdf" H 5700 4550 50  0001 C CNN
 	1    5700 4550
 	-1   0    0    -1  
 $EndComp
@@ -1594,9 +1594,9 @@ L Switch:SW_Push_DPDT SW3
 U 1 1 6099A7EA
 P 6000 6000
 F 0 "SW3" H 6000 6485 50  0000 C CNN
-F 1 "SSSS213202" H 6000 6394 50  0000 C CNN
+F 1 "GB-SSW-DPDT-SMT" H 6000 6394 50  0000 C CNN
 F 2 "digikey-footprints:Switch_Slide_JS202011SCQN" H 6000 6200 50  0001 C CNN
-F 3 "~" H 6000 6200 50  0001 C CNN
+F 3 "https://www.marutsu.co.jp/contents/shop/marutsu/datasheet/GB-SSW-DPDT-SMT.pdf" H 6000 6200 50  0001 C CNN
 	1    6000 6000
 	-1   0    0    -1  
 $EndComp
