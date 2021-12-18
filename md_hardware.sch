@@ -16,65 +16,61 @@ $EndDescr
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5F82FA1C
-P 1300 1250
-F 0 "SW1" V 1250 1350 50  0000 L CNN
-F 1 "reset" V 1350 1350 50  0000 L CNN
-F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 1300 1450 50  0001 C CNN
-F 3 "~" H 1300 1450 50  0001 C CNN
-	1    1300 1250
+P 1300 1350
+F 0 "SW1" V 1250 1450 50  0000 L CNN
+F 1 "reset" V 1350 1450 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 1300 1550 50  0001 C CNN
+F 3 "~" H 1300 1550 50  0001 C CNN
+	1    1300 1350
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R11
 U 1 1 5F83206C
-P 1600 900
-F 0 "R11" H 1750 950 50  0000 R CNN
-F 1 "10k" H 1800 850 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1530 900 50  0001 C CNN
-F 3 "~" H 1600 900 50  0001 C CNN
-	1    1600 900 
+P 1600 1000
+F 0 "R11" H 1750 1050 50  0000 R CNN
+F 1 "10k" H 1800 950 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1530 1000 50  0001 C CNN
+F 3 "~" H 1600 1000 50  0001 C CNN
+	1    1600 1000
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 850  2300 850 
 $Comp
 L power:GND #PWR02
 U 1 1 5F836BC0
-P 1750 2900
-F 0 "#PWR02" H 1750 2650 50  0001 C CNN
-F 1 "GND" H 1755 2727 50  0000 C CNN
-F 2 "" H 1750 2900 50  0001 C CNN
-F 3 "" H 1750 2900 50  0001 C CNN
-	1    1750 2900
+P 1950 2900
+F 0 "#PWR02" H 1950 2650 50  0001 C CNN
+F 1 "GND" H 1955 2727 50  0000 C CNN
+F 2 "" H 1950 2900 50  0001 C CNN
+F 3 "" H 1950 2900 50  0001 C CNN
+	1    1950 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5F836D1E
-P 1100 1550
-F 0 "#PWR01" H 1100 1300 50  0001 C CNN
-F 1 "GND" H 1105 1377 50  0000 C CNN
-F 2 "" H 1100 1550 50  0001 C CNN
-F 3 "" H 1100 1550 50  0001 C CNN
-	1    1100 1550
+P 1100 1650
+F 0 "#PWR01" H 1100 1400 50  0001 C CNN
+F 1 "GND" H 1105 1477 50  0000 C CNN
+F 2 "" H 1100 1650 50  0001 C CNN
+F 3 "" H 1100 1650 50  0001 C CNN
+	1    1100 1650
 	1    0    0    -1  
 $EndComp
+Connection ~ 1600 1150
 Wire Wire Line
-	1700 1050 1600 1050
-Connection ~ 1600 1050
+	1600 1150 1300 1150
 Wire Wire Line
-	1600 1050 1300 1050
-Wire Wire Line
-	1300 1450 1300 1550
+	1300 1550 1300 1650
 $Comp
 L power:+3.3V #PWR05
 U 1 1 5F838998
-P 1950 750
-F 0 "#PWR05" H 1950 600 50  0001 C CNN
-F 1 "+3.3V" H 1965 923 50  0000 C CNN
-F 2 "" H 1950 750 50  0001 C CNN
-F 3 "" H 1950 750 50  0001 C CNN
-	1    1950 750 
+P 1800 750
+F 0 "#PWR05" H 1800 600 50  0001 C CNN
+F 1 "+3.3V" H 1815 923 50  0000 C CNN
+F 2 "" H 1800 750 50  0001 C CNN
+F 3 "" H 1800 750 50  0001 C CNN
+	1    1800 750 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -605,7 +601,7 @@ P 7250 1700
 F 0 "D2" V 7204 1779 50  0000 L CNN
 F 1 "RFN2LAM6STR" V 7295 1779 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-128" H 7250 1700 50  0001 C CNN
-F 3 "~" H 7250 1700 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/jp/products/databook/datasheet/discrete/diode/fast_recovery/rfn2lam6s-j.pdf" H 7250 1700 50  0001 C CNN
 	1    7250 1700
 	0    1    1    0   
 $EndComp
@@ -616,7 +612,7 @@ P 7250 2300
 F 0 "D4" V 7204 2379 50  0000 L CNN
 F 1 "RFN2LAM6STR" V 7295 2379 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-128" H 7250 2300 50  0001 C CNN
-F 3 "~" H 7250 2300 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/jp/products/databook/datasheet/discrete/diode/fast_recovery/rfn2lam6s-j.pdf" H 7250 2300 50  0001 C CNN
 	1    7250 2300
 	0    1    1    0   
 $EndComp
@@ -627,7 +623,7 @@ P 8750 1700
 F 0 "D1" V 8700 1500 50  0000 L CNN
 F 1 "RFN2LAM6STR" V 8800 1050 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-128" H 8750 1700 50  0001 C CNN
-F 3 "~" H 8750 1700 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/jp/products/databook/datasheet/discrete/diode/fast_recovery/rfn2lam6s-j.pdf" H 8750 1700 50  0001 C CNN
 	1    8750 1700
 	0    1    1    0   
 $EndComp
@@ -638,7 +634,7 @@ P 8750 2300
 F 0 "D3" V 8700 2100 50  0000 L CNN
 F 1 "RFN2LAM6STR" V 8800 1650 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-128" H 8750 2300 50  0001 C CNN
-F 3 "~" H 8750 2300 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/jp/products/databook/datasheet/discrete/diode/fast_recovery/rfn2lam6s-j.pdf" H 8750 2300 50  0001 C CNN
 	1    8750 2300
 	0    1    1    0   
 $EndComp
@@ -692,15 +688,15 @@ Connection ~ 6850 2000
 Wire Wire Line
 	6850 2000 7000 2000
 Wire Wire Line
-	1100 1350 1100 1550
+	1100 1450 1100 1650
 Wire Wire Line
-	1100 1550 1300 1550
-Connection ~ 1100 1550
+	1100 1650 1300 1650
+Connection ~ 1100 1650
 Wire Wire Line
-	1100 1150 1100 1050
+	1100 1250 1100 1150
 Wire Wire Line
-	1100 1050 1300 1050
-Connection ~ 1300 1050
+	1100 1150 1300 1150
+Connection ~ 1300 1150
 Wire Wire Line
 	8000 1400 8000 1500
 Wire Wire Line
@@ -895,19 +891,8 @@ Wire Wire Line
 	3950 1500 4450 1500
 Wire Wire Line
 	3950 1200 4450 1200
-Text GLabel 1100 1050 0    50   Input ~ 0
+Text GLabel 1100 1150 0    50   Input ~ 0
 NRST
-Wire Wire Line
-	1600 750  1950 750 
-Wire Wire Line
-	750  1900 750  2900
-Wire Wire Line
-	750  2900 1750 2900
-Wire Wire Line
-	750  1700 750  750 
-Wire Wire Line
-	750  750  1600 750 
-Connection ~ 1600 750 
 Text GLabel 1400 4150 0    50   Input ~ 0
 TD
 Text GLabel 1400 4250 0    50   Output ~ 0
@@ -991,9 +976,9 @@ Text GLabel 3300 3800 0    50   Input ~ 0
 PWM_I
 Text GLabel 3300 3600 0    50   Input ~ 0
 PHASE_I
-Text GLabel 2700 2350 2    50   Input ~ 0
+Text GLabel 3250 2450 2    50   Input ~ 0
 SWDIO
-Text GLabel 2700 2450 2    50   Input ~ 0
+Text GLabel 3250 2550 2    50   Input ~ 0
 SWCLK
 Text GLabel 4050 1950 0    50   Output ~ 0
 B
@@ -1045,59 +1030,30 @@ F 3 "" H 1900 3950 50  0001 C CNN
 	1    1900 3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L MCU_ST_STM32F0:STM32F042K6Tx U2
-U 1 1 5FA10905
-P 2200 1750
-F 0 "U2" H 2450 750 50  0000 C CNN
-F 1 "STM32F042K6T6" H 2700 650 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 1800 850 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf" H 2200 1750 50  0001 C CNN
-	1    2200 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 2900 2150 2900
-Wire Wire Line
-	2150 2900 2150 2750
-Wire Wire Line
-	2150 2750 2100 2750
-Connection ~ 1750 2900
-Wire Wire Line
-	2200 2750 2150 2750
-Connection ~ 2150 2750
-Wire Wire Line
-	2100 850  2200 850 
-Connection ~ 2200 850 
-Wire Wire Line
-	2200 850  2200 750 
-Wire Wire Line
-	2200 750  1950 750 
-Connection ~ 1950 750 
-Text GLabel 2700 2250 2    50   Output ~ 0
+Text GLabel 3250 2350 2    50   Output ~ 0
 TD
-Text GLabel 2700 2150 2    50   Input ~ 0
+Text GLabel 3250 2250 2    50   Input ~ 0
 RD
 $Comp
 L power:GND #PWR025
 U 1 1 5FA4958E
-P 1400 2550
-F 0 "#PWR025" H 1400 2300 50  0001 C CNN
-F 1 "GND" H 1550 2500 50  0000 C CNN
-F 2 "" H 1400 2550 50  0001 C CNN
-F 3 "" H 1400 2550 50  0001 C CNN
-	1    1400 2550
+P 1850 1350
+F 0 "#PWR025" H 1850 1100 50  0001 C CNN
+F 1 "GND" H 2000 1300 50  0000 C CNN
+F 2 "" H 1850 1350 50  0001 C CNN
+F 3 "" H 1850 1350 50  0001 C CNN
+	1    1850 1350
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R12
 U 1 1 5FA40D2C
-P 1550 2550
-F 0 "R12" V 1450 2600 50  0000 R CNN
-F 1 "10k" V 1550 2600 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1480 2550 50  0001 C CNN
-F 3 "~" H 1550 2550 50  0001 C CNN
-	1    1550 2550
+P 2000 1350
+F 0 "R12" V 1900 1400 50  0000 R CNN
+F 1 "10k" V 2000 1400 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1930 1350 50  0001 C CNN
+F 3 "~" H 2000 1350 50  0001 C CNN
+	1    2000 1350
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
@@ -1159,50 +1115,43 @@ CAN_L
 $Comp
 L Device:R_Small R13
 U 1 1 5FA8DCAE
-P 2800 1550
-F 0 "R13" V 2700 1550 50  0000 C CNN
-F 1 "330" V 2800 1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2800 1550 50  0001 C CNN
-F 3 "~" H 2800 1550 50  0001 C CNN
-	1    2800 1550
+P 3350 1650
+F 0 "R13" V 3250 1650 50  0000 C CNN
+F 1 "330" V 3350 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3350 1650 50  0001 C CNN
+F 3 "~" H 3350 1650 50  0001 C CNN
+	1    3350 1650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED_Small D7
 U 1 1 5FA8EC6C
-P 3000 1550
-F 0 "D7" H 3050 1450 50  0000 C CNN
-F 1 "LED" H 2900 1450 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3000 1550 50  0001 C CNN
-F 3 "~" V 3000 1550 50  0001 C CNN
-	1    3000 1550
+P 3550 1650
+F 0 "D7" H 3600 1550 50  0000 C CNN
+F 1 "LED" H 3450 1550 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3550 1650 50  0001 C CNN
+F 3 "~" V 3550 1650 50  0001 C CNN
+	1    3550 1650
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR029
 U 1 1 5FA8FC7E
-P 3100 1550
-F 0 "#PWR029" H 3100 1300 50  0001 C CNN
-F 1 "GND" H 3250 1500 50  0000 C CNN
-F 2 "" H 3100 1550 50  0001 C CNN
-F 3 "" H 3100 1550 50  0001 C CNN
-	1    3100 1550
+P 3650 1650
+F 0 "#PWR029" H 3650 1400 50  0001 C CNN
+F 1 "GND" H 3800 1600 50  0000 C CNN
+F 2 "" H 3650 1650 50  0001 C CNN
+F 3 "" H 3650 1650 50  0001 C CNN
+	1    3650 1650
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 2050 2    50   Input ~ 0
+Text GLabel 3250 2150 2    50   Input ~ 0
 Z
 Text GLabel 6200 6200 2    50   Output ~ 0
 PWM_I
 Text GLabel 6200 5800 2    50   Output ~ 0
 PHASE_I
 NoConn ~ 1400 4450
-NoConn ~ 1700 2450
-NoConn ~ 1700 2350
-NoConn ~ 1700 1650
-NoConn ~ 1700 1550
-NoConn ~ 2700 1650
-NoConn ~ 2700 1750
-NoConn ~ 2700 1450
 $Comp
 L power:GND #PWR030
 U 1 1 5FA48793
@@ -1347,13 +1296,13 @@ Connection ~ 5150 2900
 Wire Wire Line
 	5000 3000 5050 3000
 Connection ~ 5050 3000
-Text GLabel 2700 1050 2    50   Input ~ 0
+Text GLabel 3250 1150 2    50   Input ~ 0
 Mode_1
-Text GLabel 2700 1150 2    50   Input ~ 0
+Text GLabel 3250 1250 2    50   Input ~ 0
 Mode_2
-Text GLabel 2700 1250 2    50   Input ~ 0
+Text GLabel 3250 1350 2    50   Input ~ 0
 Mode_3
-Text GLabel 2700 1350 2    50   Input ~ 0
+Text GLabel 3250 1450 2    50   Input ~ 0
 Mode_4
 Wire Wire Line
 	7000 2000 7950 2000
@@ -1453,18 +1402,18 @@ Connection ~ 5350 4300
 Wire Wire Line
 	5100 4550 5200 4550
 Connection ~ 5200 4550
-Text GLabel 1700 1850 0    50   Input ~ 0
+Text GLabel 2150 2050 0    50   Input ~ 0
 lim_1
-Text GLabel 1700 1950 0    50   Input ~ 0
+Text GLabel 2150 2150 0    50   Input ~ 0
 lim_2
 $Comp
 L Isolator:ADuM120N U3
 U 1 1 5F85E9D9
 P 3800 3700
 F 0 "U3" H 3800 4167 50  0000 C CNN
-F 1 "Si8620EB-B-IS" H 3800 4076 50  0000 C CNN
+F 1 "Si8620BB-B-IS" H 3800 4076 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3800 3300 50  0001 C CIN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf" H 3350 4100 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/472/si861x_2x_datasheet-2507848.pdf" H 3350 4100 50  0001 C CNN
 	1    3800 3700
 	1    0    0    -1  
 $EndComp
@@ -1559,12 +1508,12 @@ $EndComp
 $Comp
 L Device:C_Small C12
 U 1 1 603409DC
-P 750 1800
-F 0 "C12" H 842 1846 50  0000 L CNN
-F 1 "0.1μ" H 842 1755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 750 1800 50  0001 C CNN
-F 3 "~" H 750 1800 50  0001 C CNN
-	1    750  1800
+P 600 1750
+F 0 "C12" H 692 1796 50  0000 L CNN
+F 1 "0.1μ" H 692 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 600 1750 50  0001 C CNN
+F 3 "~" H 600 1750 50  0001 C CNN
+	1    600  1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1596,7 +1545,7 @@ P 1850 6100
 F 0 "U5" H 1850 6425 50  0000 C CNN
 F 1 "BD33KA5FP-E2" H 1850 6334 50  0000 C CNN
 F 2 "digikey-footprints:TO-252-3" H 2050 6050 50  0001 C CNN
-F 3 "https://d1d2qsbl8m0m72.cloudfront.net/jp/products/databook/datasheet/ic/power/linear_regulator/bdxxka5-j.pdf" H 1850 6100 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/jp/products/databook/datasheet/ic/power/linear_regulator/bdxxka5-j.pdf" H 1850 6100 50  0001 C CNN
 	1    1850 6100
 	1    0    0    -1  
 $EndComp
@@ -1613,12 +1562,12 @@ Connection ~ 1400 6000
 $Comp
 L Device:C_Small C11
 U 1 1 60398978
-P 1100 1250
-F 0 "C11" H 1100 1350 50  0000 L CNN
-F 1 "0.1μ" H 1100 1150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1100 1250 50  0001 C CNN
-F 3 "~" H 1100 1250 50  0001 C CNN
-	1    1100 1250
+P 1100 1350
+F 0 "C11" H 1100 1450 50  0000 L CNN
+F 1 "0.1μ" H 1100 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1100 1350 50  0001 C CNN
+F 3 "~" H 1100 1350 50  0001 C CNN
+	1    1100 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1632,11 +1581,11 @@ F 3 "https://akizukidenshi.com/download/ds/allegro/a3921.pdf" H 8400 5200 50  00
 	1    8700 4450
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1700 2150 0    50   Output ~ 0
+Text GLabel 2150 2350 0    50   Output ~ 0
 PWM_ST
 Text GLabel 5800 6100 0    50   Input ~ 0
 PWM_ST
-Text GLabel 1700 2250 0    50   Output ~ 0
+Text GLabel 2150 2450 0    50   Output ~ 0
 PHASE_ST
 Text GLabel 5800 5700 0    50   Input ~ 0
 PHASE_ST
@@ -1659,10 +1608,60 @@ Text GLabel 5800 5900 0    50   Input ~ 0
 PHASE_P
 Text GLabel 5800 6300 0    50   Input ~ 0
 PWM_P
-Text GLabel 1700 2050 0    50   Input ~ 0
+Text GLabel 2150 2250 0    50   Input ~ 0
 B
-NoConn ~ 2700 1950
-NoConn ~ 2700 1850
-Text GLabel 2700 2550 2    50   Input ~ 0
+Text GLabel 3250 2650 2    50   Input ~ 0
 A
+$Comp
+L MCU_ST_STM32F3:STM32F303K8Tx U2
+U 1 1 61C0A777
+P 2750 1850
+F 0 "U2" H 2700 761 50  0000 C CNN
+F 1 "STM32F303K8T6" H 2700 670 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 2250 950 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00092070.pdf" H 2750 1850 50  0001 C CNN
+	1    2750 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2850 2650 2850
+Wire Wire Line
+	600  2850 600  1850
+Connection ~ 2650 2850
+Wire Wire Line
+	2650 2850 1950 2850
+Wire Wire Line
+	2850 950  2750 950 
+Connection ~ 2750 950 
+Wire Wire Line
+	2750 950  2650 950 
+Wire Wire Line
+	2750 950  2750 850 
+Wire Wire Line
+	2750 850  1800 850 
+Wire Wire Line
+	600  850  600  1650
+Connection ~ 1600 850 
+Wire Wire Line
+	1600 850  600  850 
+Wire Wire Line
+	1800 750  1800 850 
+Connection ~ 1800 850 
+Wire Wire Line
+	1800 850  1600 850 
+Wire Wire Line
+	1950 2900 1950 2850
+Connection ~ 1950 2850
+Wire Wire Line
+	1950 2850 600  2850
+Wire Wire Line
+	1600 1150 2150 1150
+NoConn ~ 2150 2550
+NoConn ~ 2150 2650
+NoConn ~ 2150 1750
+NoConn ~ 2150 1850
+NoConn ~ 3250 1750
+NoConn ~ 3250 1850
+NoConn ~ 3250 1950
+NoConn ~ 3250 2050
 $EndSCHEMATC
