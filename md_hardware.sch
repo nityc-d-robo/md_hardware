@@ -1780,4 +1780,25 @@ Wire Wire Line
 	6150 2300 6150 2550
 Wire Wire Line
 	6150 2550 5450 2550
+$Comp
+L Device:C C15
+U 1 1 61EDEE0D
+P 6100 4050
+F 0 "C15" H 6215 4096 50  0000 L CNN
+F 1 "0.1μ" H 6215 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6138 3900 50  0001 C CNN
+F 3 "~" H 6100 4050 50  0001 C CNN
+	1    6100 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3900 6100 3850
+Wire Wire Line
+	6100 3850 5700 3850
+Connection ~ 5700 3850
+Wire Wire Line
+	6100 4200 6100 4250
+Wire Wire Line
+	6100 4250 5700 4250
+Connection ~ 5700 4250
 $EndSCHEMATC
